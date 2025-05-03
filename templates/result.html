@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segmentation Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            color: #333;
+        }
+        img {
+            border-radius: 10px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #6200ea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a:hover {
+            background-color: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Original Image</h2>
+    <img src="{{ url_for('uploaded_file', filename=filename) }}" alt="Uploaded Image">
+
+    <h2>Predicted Segmentation Mask</h2>
+    <img src="{{ url_for('uploaded_file', filename=mask_filename) }}" alt="Predicted Mask">
+
+    <br><br>
+    <a href="/">Upload Another Image</a>
+</body>
+</html>
