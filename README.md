@@ -6,7 +6,7 @@ This project applies deep learning to perform **semantic segmentation** for **wa
 
 ## 🚀 Live Demo
 
-🔗 [Watch the demo](https://drive.google.com/file/d/1mXJF9WPDwUBScqout8YQNMxHYu_5l4Yz/view?usp=sharing)
+🔗 [Watch the demo](https://drive.google.com/file/d/12rTHnjuhvOT8kHy1g7x5sySOL-yGTKRP/view?usp=sharing)
 
 ---
 
