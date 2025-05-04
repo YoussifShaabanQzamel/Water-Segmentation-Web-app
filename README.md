@@ -47,8 +47,8 @@ This project applies deep learning to perform **semantic segmentation** for **wa
 ## Getting Started
 ### 1. Clone the repository
 ```
-git clone https://github.com/yourusername/water-segmentation-landsat-sentinel.git
-cd water-segmentation-landsat-sentinel
+git clone https://github.com/YoussifShaabanQzamel/Water-Segmentation-Web-app.git
+cd Water-Segmentation-Web-app
 ```
 
 ### 2. Create a virtual environment (optional but recommended)
